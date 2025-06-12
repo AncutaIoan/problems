@@ -3,9 +3,7 @@ impl Solution {
         if n == 1 {
             return "1".to_string();
         }
-
         let mut result = "1".to_string();
-
         for _ in 2..=n {
             let mut current = String::new();
             let chars: Vec<char> = result.chars().collect();
